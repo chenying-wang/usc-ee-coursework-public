@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# Name: Chenying Wang
+# Email: chenying.wang@usc.edu
+# USC ID: ****-****-**
+# Date: Friday, March 20, 2020
+
+PWD=${1}
+
+SUCCESS="0"
+ERROR="1"
+
+PYTHON3="python3"
+BIN_PATH="${PWD}/bin"
+
+OUTPUT_IMAGE_PATH="${INPUT_IMAGE_PATH}/result"
+OUTPUT_PATH="${INPUT_IMAGE_PATH}/out"
+
+#### Texture Config ####
+TEXTURE="1"
+TEXTURE_BIN="${BIN_PATH}/texture"
+TEXTURE_INPUT="${INPUT_IMAGE_PATH}/comp.raw"
+TEXTURE_WIDTH="600"
+TEXTURE_HEIGHT="450"
+TEXTURE_CHANNEL="1"
+TEXTURE_LAWS_KERNEL="${PWD}/config/kernel.csv"
+TEXTURE_LAWS_KERNEL_7="${PWD}/config/kernel_7.csv"
+TEXTURE_TRAINING_DATASET="${PWD}/config/train_dataset.csv"
+TEXTURE_TEST_DATASET="${PWD}/config/test_dataset.csv"
+TEXTURE_DATASET_WIDTH="128"
+TEXTURE_DATASET_HEIGHT="128"
+TEXTURE_PCA="3"
+TEXTURE_SEGMENT_CLUSTER="6"
+TEXTURE_SEGMENT_PCA="10"
+TEXTURE_SEGMENT_PCA_OPT="35"
+TEXTURE_SEGMENT_WINDOW_SIZE="37"
+TEXTURE_SEGMENT_WINDOW_SIZE_7="37"
+
+#### Feature Config ####
+FEATURE="1"
+FEATURE_BIN="${BIN_PATH}/feature"
+FEATURE_HUSKY_1="${INPUT_IMAGE_PATH}/Husky_1.jpg"
+FEATURE_HUSKY_2="${INPUT_IMAGE_PATH}/Husky_2.jpg"
+FEATURE_HUSKY_3="${INPUT_IMAGE_PATH}/Husky_3.jpg"
+FEATURE_PUPPY="${INPUT_IMAGE_PATH}/Puppy_1.jpg"
+
+#### Plot Config ####
+PLOT="1"
