@@ -1,0 +1,7 @@
+0 inf 100 10 inf 32 inf
+4 0 inf inf 17 inf 5
+5 inf 0 30 inf 42 inf
+inf 23 3 0 14 inf inf
+inf 10 inf 26 0 2 inf
+inf inf 9 13 3 0 inf
+inf 6 inf inf 12 12 0

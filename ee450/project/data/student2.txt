@@ -1,0 +1,4 @@
+Symptom:4
+Interest1:A1
+Interest2:A2
+Interest3:B3
