@@ -1,0 +1,8 @@
+MAKEFILE_BASE = ../build/MakefileBase.mk
+
+PROJECT_NAME = stdvqlib
+TYPE = LIB
+CC_STD = gnu99
+CUSTOM_CCFLAGS = -DHUGE=HUGE_VAL
+
+include $(MAKEFILE_BASE)
