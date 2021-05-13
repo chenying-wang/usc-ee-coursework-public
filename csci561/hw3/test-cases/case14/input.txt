@@ -1,0 +1,13 @@
+8
+B(A)
+B(B)
+B(C)
+B(D)
+~B(A)
+~B(B)
+~B(C)
+~B(D)
+3
+A(x,y) & A(x,y) => B(x)
+A(A,B)
+A(C,D)

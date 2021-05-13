@@ -1,0 +1,6 @@
+2
+A(Teddy)
+~A(Teddy)
+2
+A(x) => B(x)
+B(x) => A(x)

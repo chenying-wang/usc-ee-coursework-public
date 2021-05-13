@@ -3,6 +3,6 @@
 
 ## License
 
-Copyright (c) 2020 Chenying Wang \<chenying.wang@usc.edu\> \
+Copyright (c) 2020 - 2021 Chenying Wang \<chenying.wang@usc.edu\> \
 Licensed under MIT License \
 See [LICENSE](./LICENSE)

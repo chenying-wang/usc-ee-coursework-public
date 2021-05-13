@@ -1,0 +1,8 @@
+3
+A(Constant)
+B(Constant)
+C(Constant)
+3
+B(x) & C(x) => A(x)
+A(x) & C(x) => B(x)
+A(x) & B(x) => C(x)

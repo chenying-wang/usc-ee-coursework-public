@@ -1,0 +1,5 @@
+1
+B(Constant)
+2
+A(x) => B(x)
+~A(x) => B(x)

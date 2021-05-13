@@ -1,0 +1,11 @@
+3
+WalkTogether(Allie,Bowl)
+WalkTogether(Bowl,Ziggy)
+WalkTogether(Dash,Collie)
+6
+WalkWith(Allie,WalkerKate)
+WalkWith(Bowl,WalkerKate)
+WalkWith(Collie,WalkerPaul)
+WalkWith(x,a) & WalkWith(y,a) => WalkTogether(x,y)
+WalkTogether(Dash,Quincy)
+WalkTogether(Eo,Ziggy)

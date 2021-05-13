@@ -1,0 +1,15 @@
+10
+A(E,F,G,H,A,B,C,D)
+A(H,A,B,C,D,E,F,G)
+A(H,G,F,E,D,C,B,A)
+B(F)
+B(G)
+~A(E,F,G,H,A,B,C,D)
+~A(H,A,B,C,D,E,F,G)
+~A(H,G,F,E,D,C,B,A)
+~B(F)
+~B(G)
+3
+A(a,b,c,d,e,f,g,h) => A(b,c,d,e,f,g,h,a)
+A(a,b,c,d,e,f,g,h) => ~B(a)
+A(A,B,C,D,E,F,G,H)

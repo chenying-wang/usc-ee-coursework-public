@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+    <Properties>
+        <Property name="pattern" value="%highlight{[%d{DEFAULT}] %-5level %msg}{FATAL=red, ERROR=red, WARN=yellow, INFO=white, DEBUG=cyan, TRACE=cyan}%n" />
+    </Properties>
+
+    <Appenders>
+        <Console name="Log" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern}" />
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="io.chenying" level="DEBUG" additivity="false">
+            <AppenderRef ref="Log" />
+        </Logger>
+        <Root level="INFO">
+            <AppenderRef ref="Log" />
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,17 @@
+4
+Meets(Balrog,Gandalf)
+~Kills(Frodo,Gollum)
+King(Aragorn)
+~Friends(Legolas,Gimli)
+11
+Meets(x,y) => Argues(x,y)
+Argues(x,y) => Fights(x,y)
+Fights(x,y) => Kills(x,y)
+Kills(x,y) & Friends(y,Gods) => Reborn(y)
+Reborn(y) => Meets(x,y)
+Friends(Gandalf,Gods)
+Friends(x,Gandalf) => Friends(x,Gods)
+King(h)
+Elf(Legolas)
+Dwarf(Gimli)
+Elf(l) & Dwarf(w) => ~Friends(l,w)

@@ -1,0 +1,10 @@
+1
+Play(Hayley,Teddy)
+7
+Vaccinated(x) => Start(x)
+Start(x) & Healthy(x) => Ready(x)
+Ready(x) & Ready(y) => Play(x,y)
+Vaccinated(Hayley)
+Healthy(Hayley)
+Healthy(Teddy)
+Vaccinated(Teddy)

@@ -1,0 +1,9 @@
+2
+Equal(A,D)
+Equal(A,C)
+5
+Equal(x,y) & Equal(y,z) => Equal(x,z)
+Equal(x,x) => Equal(x,x)
+Equal(x,x)
+Equal(A,B)
+Equal(B,C)

@@ -1,0 +1,17 @@
+2
+Likes(Ziggy,Robin)
+Dead(Sebastian)
+13
+Cat(x) & Fish(y) => Likes(x,y)
+Cat(x) & Rodent(y) => Likes(x,y)
+Cat(x) & Bird(y) => Likes(x,y)
+Flies(x) & Feathers(x) => Bird(x)
+Likes(x,y) & Alone(x,y) & Slow(y) => Dead(y)
+Cat(Ziggy)
+Fish(Sebastian)
+Rodent(Mickey)
+Flies(Robin)
+Feathers(Robin)
+~Slow(Mickey)
+Alone(Diana,Mickey)
+Hungry(Diana)

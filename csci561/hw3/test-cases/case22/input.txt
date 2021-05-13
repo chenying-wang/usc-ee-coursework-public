@@ -1,0 +1,6 @@
+2
+R(Constant)
+~R(Constant)
+2
+T(x) & ~T(x) => R(x)
+T(Constant)

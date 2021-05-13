@@ -1,0 +1,6 @@
+2
+~Cute(Whiskers)
+Cute(Willy)
+2
+Dog(x) => Cute(x)
+~Dog(y) => Cute(y)

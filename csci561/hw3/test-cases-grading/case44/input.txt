@@ -1,0 +1,13 @@
+3
+Playful(Luna)
+Annoying(Tony)
+Cute(Diana)
+8
+Dog(Tony)
+Dog(Luna)
+~Dog(Diana)
+Dog(x) => Cute(x)
+Dog(x) => Hungry(x)
+Dog(x) => Energetic(x)
+Dog(x) => Playful(x)
+Dog(x) => ~Annoying(x)

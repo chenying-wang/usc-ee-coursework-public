@@ -1,0 +1,15 @@
+3
+AtRisk(Collie)
+LivesWith(Collie,Matt)
+CallPetServices(Raspy)
+10
+Hungry(x) & Forgetful(y) & LivesWith(x,y) => AtRisk(x)
+AtRisk(x) & ~Daycare(x) => CallPetServices(x)
+Hungry(Collie)
+Forgetful(Jennifer)
+LivesWith(Collie,Jennifer)
+Hungry(Raspy)
+Forgetful(Matt)
+LivesWith(Raspy,Matt)
+~Daycare(Raspy)
+Daycare(Collie)

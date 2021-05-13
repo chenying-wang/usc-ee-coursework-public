@@ -1,0 +1,18 @@
+1
+~Kills(Jack,Tuna)
+15
+AnimalLover(x) & Animal(y) => ~Kills(x,y)
+DogPack(a,b,c,d) & DogPack(e,f,g,h) & Owns(x,a,b,c,d,e,f,g,h) => AnimalLover(x)
+DogPair(x,y) & DogPair(z,w) => DogPack(x,y,z,w)
+Dog(x) & Dog(y) => DogPair(x,y)
+Cat(x) => Animal(x)
+Owns(Jack,A,B,C,D,E,F,G,H)
+Dog(A)
+Dog(B)
+Dog(C)
+Dog(D)
+Dog(E)
+Dog(F)
+Dog(G)
+Dog(H)
+Cat(Tuna)

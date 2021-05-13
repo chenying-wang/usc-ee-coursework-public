@@ -1,0 +1,5 @@
+2
+Test(Teddy)
+~Test(Teddy)
+1
+A(Teddy)

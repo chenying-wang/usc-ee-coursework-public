@@ -1,0 +1,10 @@
+4
+~Ta(Constant,Other)
+~Tb(Constant,Other)
+Ta(Constant,Other)
+Tb(Constant,Other)
+4
+Ta(x,y) => ~A(x)
+Tb(x,y) => ~B(x)
+A(Constant)
+B(Constant)

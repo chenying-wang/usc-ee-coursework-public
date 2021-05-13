@@ -1,0 +1,7 @@
+4
+Test(Jack)
+Test(Teddy)
+~Test(Jack)
+~Test(Teddy)
+1
+Test(Teddy)

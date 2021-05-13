@@ -1,0 +1,14 @@
+3
+Play(Birdy)
+Healthy(Biscuit)
+Healthy(Artie)
+9
+Tired(x) => Sleep(x)
+Sleep(x) => Play(x)
+Play(x) => Tired(x)
+Sleep(x) & Eat(x) => Healthy(x)
+Eat(Artie)
+~Eat(Birdie)
+Eat(Biscuit)
+Sleep(Biscuit)
+~Sleep(Birdy)
